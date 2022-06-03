@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0a3ed76-ba7b-4cba-b768-172863cd2f81" name="Changes" comment="">
+    <list default="true" id="b0a3ed76-ba7b-4cba-b768-172863cd2f81" name="Changes" comment="Migrated files from original project to updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project3/guessthenumberv2/GuessTheNumberv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project3/guessthenumberv2/GuessTheNumberv2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="GuessTheNumberv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project3.guessthenumberv2.GuessTheNumberv2" />
+      <module name="Project_2_v2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project3.guessthenumberv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GuessTheNumberv2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +64,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654271232774</updated>
     </task>
+    <task id="LOCAL-00001" summary="Migrated files from original project to updated">
+      <created>1654271523078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654271523078</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -55,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Migrated files from original project to updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrated files from original project to updated" />
   </component>
 </project>

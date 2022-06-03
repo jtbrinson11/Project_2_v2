@@ -3,12 +3,21 @@ package com.project3.guessthenumberv2;
 import java.util.Scanner;
 
 public class GuessTheNumberv2 {
+
     public static void main(String[] args) {
 
         //gets users name
         Scanner scan = new Scanner(System.in);
-        System.out.println("Greetings! Please enter your name: ");
-        String name = scan.nextLine();
+        String name = "";
+        try {
+            System.out.println("Greetings! Please enter your name: ");
+            name = scan.nextLine();
+        }
+        catch (Exception e)
+        {
+            System.out.println("Sorry, I had an issue getting your name. Good-bye.");
+            System.exit(-1);
+        }
 
         //runs the program until the user signals to stop
         boolean done = false;
@@ -21,7 +30,6 @@ public class GuessTheNumberv2 {
             System.out.println("OK " + name + ", I am thinking of a number between 1 and 20. To win, you must guess my number within 6 tries\nGo ahead and take a guess what it is (invalid input does not count as guesses): ");
             String input = scan.nextLine();
             int num = 0;
-
             try {
                 num = Integer.parseInt(input);
             } catch (Exception e) {
@@ -42,7 +50,7 @@ public class GuessTheNumberv2 {
                         System.out.println("Congratulations! You guessed my number in " + guesses + " turns!");
                         exit = true;
                     }
-                } else if (num > randNum && num > 1 && num < 21) {
+                } else if (num > randNum && num > 0 && num < 21) {
                     guesses++;
                     System.out.println("Nope. Your guess was too high.");
                     if (guesses != 7)
@@ -57,7 +65,7 @@ public class GuessTheNumberv2 {
                         System.out.println("Oops, invalid input. Good-bye.");
                         System.exit(-1);
                     }
-                } else if (num < randNum && num > 1 && num < 21) {
+                } else if (num < randNum && num > 0 && num < 21) {
                     guesses++;
                     System.out.println("Nope. Your guess was too low.");
                     if (guesses != 7)
@@ -91,10 +99,10 @@ public class GuessTheNumberv2 {
             while (!exit);
 
             //checks if user still wants to play
+            try {
             System.out.println("Would you like to play the game again (y/n): ");
             String playAgain = scan.nextLine();
-
-            switch (playAgain){
+            switch (playAgain) {
                 case "y":
                     System.out.println("I'll reset the game then.\n");
                     break;
@@ -113,6 +121,12 @@ public class GuessTheNumberv2 {
                     System.out.println("Sorry, that's invalid input. Exiting by default . . .\n");
                     done = true;
                     break;
+                }
+            }
+            catch (Exception e)
+            {
+                System.out.println("Sorry, something must have been wrong with your input. Good-bye.");
+                System.exit(-1);
             }
 
         }
