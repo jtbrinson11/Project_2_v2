@@ -65,6 +65,7 @@ public class GuessTheNumberv2 {
                         System.out.println("Oops, invalid input. Good-bye.");
                         System.exit(-1);
                     }
+
                 } else if (num < randNum && num > 0 && num < 21) {
                     guesses++;
                     System.out.println("Nope. Your guess was too low.");
@@ -80,9 +81,10 @@ public class GuessTheNumberv2 {
                         System.out.println("Oops. Not a number. Good-bye.");
                         System.exit(-1);
                     }
+
                 }
                 else {
-                    System.out.println("Oops. Either your number was out of range, or it was invalid. Try again: ");
+                    System.out.println("Oops. Your number was out of range. Try again: ");
                     input = scan.nextLine();
 
                     try {
@@ -128,7 +130,6 @@ public class GuessTheNumberv2 {
                 System.out.println("Sorry, something must have been wrong with your input. Good-bye.");
                 System.exit(-1);
             }
-
         }
         while (!done);
     }

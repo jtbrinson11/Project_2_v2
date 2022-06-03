@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Project_2_v2:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a3ed76-ba7b-4cba-b768-172863cd2f81" name="Changes" comment="Migrated files from original project to updated">
+    <list default="true" id="b0a3ed76-ba7b-4cba-b768-172863cd2f81" name="Changes" comment="Updated project before thorough testing">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Project_2_v2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/project3/guessthenumberv2/GuessTheNumberv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/project3/guessthenumberv2/GuessTheNumberv2.java" afterDir="false" />
     </list>
@@ -32,10 +39,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Project_2_v2/Project_2_v2/out/artifacts/Project_2_v2_jar/Project_2_v2.jar",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.Unnamed">
     <configuration name="GuessTheNumberv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.project3.guessthenumberv2.GuessTheNumberv2" />
       <module name="Project_2_v2" />
@@ -49,6 +61,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Project_2_v2_jar/Project_2_v2.jar" />
+      <option name="WORKING_DIRECTORY" value="C:\Project_2_v2\Project_2_v2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Project_2_v2:jar" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GuessTheNumberv2" />
+      <item itemvalue="JAR Application.Unnamed" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GuessTheNumberv2" />
@@ -71,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654271523078</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated project before thorough testing">
+      <created>1654277546478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654277546478</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Migrated files from original project to updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Migrated files from original project to updated" />
+    <MESSAGE value="Updated project before thorough testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated project before thorough testing" />
   </component>
 </project>
